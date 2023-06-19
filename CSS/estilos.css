@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+.form-control{
+    border: 1px solid #28a745;
+    outline: none;
+    &:focus {
+        border: #28a745;
+    }
+
+    &:active {
+        border: #28a745;
+    }
+}
+ 
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+
+}
+
+li{
+    list-style: none;
+}
